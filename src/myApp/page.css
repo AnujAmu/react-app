@@ -1,0 +1,25 @@
+.menu-btn{
+    float: right;
+}
+.toolbar {
+    margin: 5px 40px;
+}
+
+.menu-icon {
+    transform: scale(1.2);
+}
+
+/* .container {
+    margin: 5px 40px;
+} */
+
+.divider{
+    margin-top: 18px;
+}
+
+.title {
+    padding-top: 9px;
+    font-size: 22px;
+    color: navy;
+    font-weight: 500;
+}

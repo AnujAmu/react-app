@@ -1,0 +1,18 @@
+.select-labels{
+    font-size: 14px;
+}
+.filter-text{
+    margin-left: 18px;
+}
+
+.dropdown{
+    height: 33px;
+}
+/* 
+.container{
+    float: left;
+} */
+
+.divider{
+    margin-top: 9px;
+}

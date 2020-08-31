@@ -9,12 +9,23 @@
     padding: 125px 0px;
 }
 
+
 .icon-btn {
     border: 1px solid lightgrey;
     background-color: white;
 
    
 }
+
+.btns{
+    float: right;
+}
+
+.menu-icon{
+    color: grey;
+    transform: scale(1.2);
+}
+
 .active-icon {
     color: rgb(98, 238, 98);
     transform: scale(0.5);

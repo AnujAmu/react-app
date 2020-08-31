@@ -6,24 +6,23 @@ class CameraView extends Component {
     render() {
         return (
             <div>
-                <div fxLayoutAlign="space-between">
-                    <div>
-                        <button mat-icon-button>
-                            <MenuOpen />
-                        </button>
-                    </div>
-                    <div fxLayoutGap="5px" fxLayoutAlign="end">
-                        <Button variant="outlined">
-                        <FiberManualRecord className="active-icon"/>
+                <div>
+                        <Button>
+                            <MenuOpen className="menu-icon"/>
                         </Button>
-                        <Button variant="outlined">
-                        <Settings />
-                        </Button>
-                        <Button variant="outlined">
-                        <VideoCall />
-                        </Button>
-                        <Button variant="outlined">Upload Video</Button>
-                    </div>
+
+                        <span className="btns">
+                            <Button variant="outlined">
+                            <FiberManualRecord className="active-icon"/>
+                            </Button>
+                            <Button variant="outlined">
+                            <Settings />
+                            </Button>
+                            <Button variant="outlined">
+                            <VideoCall />
+                            </Button>
+                            <Button variant="outlined">Upload Video</Button>
+                        </span>
                 </div>
 
                 <div class="camera-view-container">
