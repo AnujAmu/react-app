@@ -1,6 +1,6 @@
 .camera-view-container {
     background-color: #eaf0f1f8;
-    margin-top: 10px;
+    margin-top: 25px;
 
     
 }
@@ -9,12 +9,19 @@
     padding: 125px 0px;
 }
 
+.camera-bar{
+    margin: 15px 0px;
+}
 
 .icon-btn {
     border: 1px solid lightgrey;
     background-color: white;
 
    
+}
+
+.container{
+    margin: 5px 18px;
 }
 
 .btns{
@@ -29,6 +36,10 @@
 .active-icon {
     color: rgb(98, 238, 98);
     transform: scale(0.5);
+}
+
+.upload-btn{
+    font-size: 12px;
 }
 
 .btn {

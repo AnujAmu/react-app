@@ -5,8 +5,8 @@ import {Button} from '@material-ui/core';
 class CameraView extends Component {
     render() {
         return (
-            <div>
-                <div>
+            <div className="container">
+                <div className="camera-bar">
                         <Button>
                             <MenuOpen className="menu-icon"/>
                         </Button>
@@ -16,12 +16,12 @@ class CameraView extends Component {
                             <FiberManualRecord className="active-icon"/>
                             </Button>
                             <Button variant="outlined">
-                            <Settings />
+                            <Settings className=""/>
                             </Button>
                             <Button variant="outlined">
                             <VideoCall />
                             </Button>
-                            <Button variant="outlined">Upload Video</Button>
+                            <Button variant="outlined"><span className="upload-btn">Upload Video</span></Button>
                         </span>
                 </div>
 

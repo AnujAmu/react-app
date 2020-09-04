@@ -10,7 +10,7 @@ class Page extends Component {
     render() {
         return (
             <div>
-                <div >
+                <div class="toolbar">
                     <span className="title">AppsStore.ai</span>
                     <span className="menu-btn">
                     <Button>

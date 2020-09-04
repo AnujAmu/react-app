@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { AssignmentReturnedOutlined, RefreshTwoTone } from '@material-ui/icons';
 import { Select, MenuItem, Divider, Button } from '@material-ui/core';
 import './faces-container.css';
+import ImagesContainer from './images-container';
 
 class FacesContainer extends Component {
     render() {
@@ -34,6 +35,11 @@ class FacesContainer extends Component {
                 <div className="divider">
                 <Divider></Divider>
                 </div>
+
+                {/* <div>
+                    <ImagesContainer />
+                </div> */}
+
             </div>
         );
     }
